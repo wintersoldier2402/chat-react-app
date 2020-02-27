@@ -1,0 +1,39 @@
+@import '../../styles/_colors';
+
+$chat-title-shadow: darken($accent-color, 75.29);
+
+#chat-title {
+    display: flex;
+    grid: 36px / 1fr 36px;
+    align-content: center;
+    align-items: center;
+    grid-area: chat-title;
+    background: $accent-color;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    font-size: 1.5rem;
+    border-radius: 0 10px 0 0;
+    box-shadow: 0 1px 3px -1px $chat-title-shadow;
+    padding: 0 20px;
+    z-index: 1;
+}
+.chat-sub{
+    position: relative;
+    left: 66px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+     
+    -webkit-transition: 1s ease;
+            transition: 1s ease;
+}
+
+a:hover {
+    -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+    border-bottom: 2px solid #efc3b8;
+    
+    
+}

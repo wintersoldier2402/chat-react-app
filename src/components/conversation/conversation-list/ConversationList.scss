@@ -1,0 +1,8 @@
+@import '../../../styles/_colors';
+
+#conversation-list {
+    grid-area: conversation-list;
+    background: $primary-color;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+}
